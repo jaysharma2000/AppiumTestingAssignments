@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp" />
+
+    <EditText
+
+        android:id="@+id/editname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp" />
+
+</FrameLayout>

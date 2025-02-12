@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T17:52:50 IST" name="Surefire suite" finished-at="2025-02-11T17:53:32 IST" duration-ms="41099">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T17:52:50 IST" name="Surefire test" finished-at="2025-02-11T17:53:32 IST" duration-ms="41099">
+      <class name="ProductListTest">
+        <test-method signature="productListTest() throws java.lang.InterruptedException" started-at="2025-02-11T17:53:05 IST" name="productListTest" finished-at="2025-02-11T17:53:20 IST" duration-ms="14759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productListTest -->
+      </class> <!-- ProductListTest -->
+      <class name="RegisterScreenTest">
+        <test-method signature="loginTest() throws java.lang.InterruptedException" started-at="2025-02-11T17:53:20 IST" name="loginTest" finished-at="2025-02-11T17:53:32 IST" duration-ms="11711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- RegisterScreenTest -->
+      <class name="LoginScreenTest">
+        <test-method signature="registerTest() throws java.lang.InterruptedException" started-at="2025-02-11T17:52:51 IST" name="registerTest" finished-at="2025-02-11T17:53:05 IST" duration-ms="14530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+      </class> <!-- LoginScreenTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
