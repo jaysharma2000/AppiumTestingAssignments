@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T00:27:15 IST" name="Surefire suite" finished-at="2025-02-13T00:27:45 IST" duration-ms="29680">
+    <groups>
+    </groups>
+    <test started-at="2025-02-13T00:27:15 IST" name="Surefire test" finished-at="2025-02-13T00:27:45 IST" duration-ms="29680">
+      <class name="OnboardingScreenTest">
+        <test-method signature="onboardingScreenTest() throws java.lang.InterruptedException" started-at="2025-02-13T00:27:27 IST" name="onboardingScreenTest" finished-at="2025-02-13T00:27:45 IST" duration-ms="17505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onboardingScreenTest -->
+      </class> <!-- OnboardingScreenTest -->
+      <class name="DashBoardPageTest">
+        <test-method signature="dashboardPageTest() throws java.lang.InterruptedException" started-at="2025-02-13T00:27:15 IST" name="dashboardPageTest" finished-at="2025-02-13T00:27:27 IST" duration-ms="12111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageTest -->
+      </class> <!-- DashBoardPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
